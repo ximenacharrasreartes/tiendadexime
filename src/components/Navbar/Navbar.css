@@ -1,10 +1,10 @@
 .NavbarItems {
     background-color: rgb(133, 75, 75);
-     height: 80px;
+     height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 
 }
 
@@ -28,7 +28,7 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .nav-links {
@@ -55,3 +55,86 @@
 .menu-icon {
     display: none;
 }
+
+@media  screen and  (max-width: 960px) {
+    .Navbar {
+        position: relative;
+    }
+
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top:80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+
+}
+
+.nav-menu.active {
+    background: rgb(133, 75, 75);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+}
+
+.navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+}
+
+.menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+
+}
+
+.fa-times {
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-links-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: rgb(133, 75, 75);
+    text-decoration: none;
+    color: rgb(133, 75, 75);
+    font-size: 1.5rem;
+}
+
+.nav-links-mobile:hover {
+    background: white;
+    color: rgb(133, 75, 75);
+    transition: 250ms;
+
+}
+
+Button {
+    display: none;
+}
+}
+
