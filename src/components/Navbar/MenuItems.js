@@ -5,7 +5,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Capsulas',
+        title: 'Cápsulas',
         url:'#',
         cName: 'nav-links'
     },
@@ -30,7 +30,7 @@ export const MenuItems = [
         cName:'nav-links'
     },
     {
-        title: 'Registrase',
+        title: 'Registrarse',
         url: '#',
         cName:'nav-links'
     }
