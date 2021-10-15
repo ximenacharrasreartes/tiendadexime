@@ -33,8 +33,8 @@ const Cart = () => {
                                 <td>{item.price}</td>
                                 <td> Cantidad ({item.quantity})</td>
                                 <td>
-                                    <button className="btn btn-info m-2" onClick= {() => updateItemQuantity (item.id, item.quantity -1)}> Restar</button>
-                                    <button className="btn btn-info m-2" onClick= {() => updateItemQuantity (item.id, item.quantity +1)}> Agregar</button>
+                                    <button className="btn btn-outline-dark" onClick= {() => updateItemQuantity (item.id, item.quantity -1)}> Restar</button>
+                                    <button className="btn btn-outline-dark" onClick= {() => updateItemQuantity (item.id, item.quantity +1)}> Agregar</button>
                                     <button className="btn btn-danger m-2" onClick= {() => removeItem (item.id)}> Eliminar Producto</button>
 
 
@@ -49,9 +49,9 @@ const Cart = () => {
                     <h2> Total: ${cartTotal} </h2>
                 </div>
                 <div className="col-auto">
-                    <button className="btn btn-danger m-2"
+                    <button className="btn btn-light"
                     onClick={ () => emptyCart()}>Vaciar carrito</button>
-                    <button className="btn btn-primary">Comprar Ahora</button>
+                    <button className="btn btn-dark btn-lg">Comprar Ahora</button>
                 </div>
 
         </div>
