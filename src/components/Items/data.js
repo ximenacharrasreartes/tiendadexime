@@ -11,9 +11,9 @@ const data = {
         {
             id:1,
             img: img1,
-            title: 'cafe1',
+            title: 'ISPIRAZIONE RISTRETTO ITALIANO',
             desc:'',
-            price: 90,
+            price: 230,
         },
         {
             id:2,
