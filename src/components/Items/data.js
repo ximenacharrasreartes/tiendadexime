@@ -18,23 +18,23 @@ const data = {
         {
             id:2,
             img: img2,
-            title: 'cafe2',
+            title: 'ISPIRAZIONE FIRENZE ARPEGGIO',
             desc:'',
-            price: 90,
+            price: 290,
         },
         {
             id:3,
             img: img3,
-            title: 'cafe3',
+            title: 'ISPIRAZIONE ROMA',
             desc:'',
-            price: 90,
+            price: 190,
         },
         {
             id:4,
             img: img4,
-            title: 'cafe4',
+            title: 'ISPIRAZIONE NAPOLI',
             desc:'',
-            price: 90,
+            price: 210,
         }
 
     ]
