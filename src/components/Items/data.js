@@ -11,30 +11,31 @@ const data = {
         {
             id:1,
             img: img1,
-            title: 'cafe1',
-            desc:'',
-            price: 90,
+            title: 'ISPIRAZIONE RISTRETTO ITALIANO',
+            desc:'CAFÉ PODEROSO Y CONTRASTANTE. INTENSIDAD  10',
+            price: 230,
+           
         },
         {
             id:2,
             img: img2,
-            title: 'cafe2',
-            desc:'',
-            price: 90,
+            title: 'ISPIRAZIONE FIRENZE ARPEGGIO',
+            desc:'CAFÉ INTENSO Y CREMOSO. INTENSIDAD  9',
+            price: 290,
         },
         {
             id:3,
             img: img3,
-            title: 'cafe3',
-            desc:'',
-            price: 90,
+            title: 'ISPIRAZIONE ROMA',
+            desc:' CAFÉ COMPLETO Y BALANCEADO. INTENSIDAD  8',
+            price: 190,
         },
         {
             id:4,
             img: img4,
-            title: 'cafe4',
-            desc:'',
-            price: 90,
+            title: 'ISPIRAZIONE NAPOLI',
+            desc:'CAFÉ EXCEPCIONALMENTE OSCURO Y CREMOSO. INTENSIDAD  13',
+            price: 210,
         }
 
     ]

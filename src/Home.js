@@ -5,7 +5,7 @@ import data from "./components/Items/data";
 const Home = () => {
     return (
         <>
-            <h1 className="text-center mt-3">Cápsulas </h1>
+            <h1 className="text-center mt-3">Elegí tu café </h1>
 
                 <section className="py-4 container"> 
                     <div className="row justify-content-center">

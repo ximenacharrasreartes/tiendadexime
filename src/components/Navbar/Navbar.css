@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 }
 
@@ -13,11 +13,12 @@
     justify-content: start;
     margin-left: 20px;
     cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .fa-coffee {
     margin-left: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .nav-menu {
@@ -136,5 +137,8 @@
 Button {
     display: none;
 }
+
+
+
 }
 
