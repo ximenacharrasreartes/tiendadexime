@@ -11,7 +11,30 @@ const data = {
         {
             id:1,
             img: img1,
-            title: 'cafe1'
+            title: 'cafe1',
+            desc:'',
+            price: 90,
+        },
+        {
+            id:2,
+            img: img2,
+            title: 'cafe2',
+            desc:'',
+            price: 90,
+        },
+        {
+            id:3,
+            img: img3,
+            title: 'cafe3',
+            desc:'',
+            price: 90,
+        },
+        {
+            id:4,
+            img: img4,
+            title: 'cafe4',
+            desc:'',
+            price: 90,
         }
 
     ]
