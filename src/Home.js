@@ -1,19 +1,24 @@
 import React from "react";
-import ItemCard from "./components/Items/ItemCard"
+import ItemCard from "./components/Items/ItemCard";
+import data from "./components/Items/data";
 
-function Home(props) {
+const Home = () => {
     return (
-        <div>
+        <>
             <h1 className="text-center mt-3">Cápsulas </h1>
 
-            <section className="py-4 container"> </section>
-            <div className="row justify-content-center">
+                <section className="py-4 container"> 
+                    <div className="row justify-content-center">
+                    {data.productData.map((item, index)=>{
+                        return(
+                            <ItemCard img={item.img} title={item.title} desc={item.desc} price={item.price} key={index}/>
 
-                <ItemCard img="" title="title" desc="desc" />
+                        )
+                        })}
 
             </div>
-
-        </div>
+            </section>
+        </>
     );
 }
 
