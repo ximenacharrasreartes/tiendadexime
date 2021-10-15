@@ -45,6 +45,15 @@ const Cart = () => {
                     </tbody>
              </table>
             </div>
+                <div className="col-auto ms-auto">
+                    <h2> Total: ${cartTotal} </h2>
+                </div>
+                <div className="col-auto">
+                    <button className="btn btn-danger m-2"
+                    onClick={ () => emptyCart()}>Vaciar carrito</button>
+                    <button className="btn btn-primary">Comprar Ahora</button>
+                </div>
+
         </div>
         </section>
     );
