@@ -3,8 +3,9 @@ import Navbar from "./components/Navbar/Navbar";
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home';
-import Cart from './components/ItemCount/ItemCount'
+import Cart from './components/Cart/Cart'
 import {CartProvider} from "react-use-cart";
+import Maquinas from './Maquinas';
 
 function App() {
     return ( 
@@ -15,6 +16,7 @@ function App() {
         <Home />
         <Cart />
         </CartProvider>
+        <Maquinas/>
 
         </div>
     );

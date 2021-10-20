@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
         title:'Máquinas de Café',
-        url: '#',
+        url: './maquinas.js',
         cName: 'nav-links'
     },
     {
