@@ -26,7 +26,7 @@ const Home = () => {
 
             </div>
             </section>
-            <h1 className="text-center mt-3">Elegí tu café </h1>
+            <h1 className="text-center mt-3">Máquinas de café" </h1>
         </>
 
     );
