@@ -26,7 +26,9 @@ const Home = () => {
 
             </div>
             </section>
+            <h1 className="text-center mt-3">Elegí tu café </h1>
         </>
+
     );
 }
 
