@@ -34,4 +34,4 @@ class ItemCount extends Component {
     }
 }
 
-export default ItemCount;
+export default ItemCount; 
