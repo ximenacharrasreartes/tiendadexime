@@ -1,10 +1,11 @@
 import React from 'react';
-import Products from './components/Product/Products';
+import { Products, Navbar } from './components';
 
 const App = () => {
     return (
         <div>
             Tienda de café de Xime
+            <Navbar/>
             <Products/>
         </div>
     )
