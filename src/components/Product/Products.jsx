@@ -6,8 +6,10 @@
  const products = [
      {  id: 1, name: 'ISPIRAZIONE RISTRETTO ITALIANO', description:'CAFÉ PODEROSO Y CONTRASTANTE. INTENSIDAD  10', price: '$5'},
      {  id: 2, name: 'ISPIRAZIONE RISTRETTO ITALIANO', description:'CAFÉ PODEROSO Y CONTRASTANTE. INTENSIDAD  10', price: '20'},
+     {  id: 2, name: 'ISPIRAZIONE RISTRETTO ITALIANO', description:'CAFÉ PODEROSO Y CONTRASTANTE. INTENSIDAD  10', price: '20'},
+     {  id: 2, name: 'ISPIRAZIONE RISTRETTO ITALIANO', description:'CAFÉ PODEROSO Y CONTRASTANTE. INTENSIDAD  10', price: '20'},
  ];
- 
+
 const Products = () => {
     return (
     <main>
