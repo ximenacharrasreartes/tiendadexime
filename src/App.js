@@ -4,7 +4,6 @@ import { Products, Navbar } from './components';
 const App = () => {
     return (
         <div>
-            Tienda de café de Xime
             <Navbar/>
             <Products/>
         </div>

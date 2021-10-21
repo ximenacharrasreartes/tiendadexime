@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 
@@ -6,7 +6,7 @@ import logo from '../../assets/tiendadexime.png';
 import useStyles from './Styles';
 
 const Navbar = () => {
-    const classes =useStyles();
+    const classes = useStyles();
     return (
         <>
             <AppBar position="fixed" className={classes.appBar} color="inherit">
