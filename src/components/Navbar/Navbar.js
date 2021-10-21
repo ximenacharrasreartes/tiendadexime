@@ -1,39 +1,34 @@
 import React, { Component } from 'react';
-import { Button } from '../Button';
-import { MenuItems } from "./MenuItems"
-import './Navbar.css'
+import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
+import { ShoppingCart } from '@material-ui/icons';
 
-class Navbar extends Component {
-    state = { clicked: false}
-    handleClick = ( ) => {
-        this.setState({ clicked: !this.state.clicked })
-    }
-    render() {
-        return(
-             <nav className = "NavbarItems">
+import logo from '../../assets/tiendadexime.png';
+import useStyles from './Styles';
 
-            <h1 className = "navbar-logo" > Tienda de Xime <i className = "fas fa-coffee"></i>
-            </h1>   
-            <div className = "menu-icon" onClick={this.handleClick}>
-                <i className={this.state.clicked ? 'fas fa-times': 'fas fa-bars'}></i>
-            </div>  
-             <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}> 
-                 {MenuItems.map((item, index) => {
-                    return (
-                         <li key={index}>
-                            <a className={item.cName} href = {item.url}> 
-                            {item.title }
-                            </a> 
+const Navbar = () => {
+    const classes =useStyles();
+    return (
+        <>
+            <AppBar position="fixed" className={classes.appBar} color="inherit">
+                <Toolbar>
+                    <Typography variant="h6" className={classes.AppBar} color="inherit">
+                        <img src={logo} alt="Tiendadexime.js" height="150px" className={classes.image}/>
 
-                        </li >
+                    </Typography>
+                    <div className={classes.grow}/>
+                    <div className={classes.button}>
+                        <IconButton aria-label="Show cart Items" color="inherit">
+                            <Badge badgeContent={2} color="secondary">
+                                <ShoppingCart badgeContent={2} color="secondary">
 
-                    )
-                })} 
-            </ul>
-                <Button> Registrarse </Button>
-             </nav>
-        )
-    }
+                                </ShoppingCart>
+                            </Badge>
+                        </IconButton>
+                    </div>
+                </Toolbar>
+            </AppBar>
+        </>
+    )
 }
 
 export default Navbar
